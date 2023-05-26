@@ -1,0 +1,89 @@
+{
+    "clients": [
+        {
+            "id":0,
+            "name":"",
+            "document":"",
+            "flightsOrigin":"",
+            "flightsDestiny":"",
+            "passengers":[
+                {
+                    "adult":"",
+                    "child":"",
+                    "baby":""
+                }
+            ],
+            "baggage-type":""
+
+        }
+    ],
+    
+    "places":[
+        {
+            "country":"Colombia",
+            "city":"Medellin",
+            "code":"EOH"
+        },
+        {
+            "country":"Estados Unidos",
+            "city":"Washington D. C.",
+            "code":"DCA"
+        },
+        {
+            "country":"Argentina",
+            "city":"Buenos Aires",
+            "code":"EZE"
+        },
+
+        {
+            "country":"China",
+            "city":"Pekin",
+            "code":"PEK"
+        },
+        {
+            "country":"Japon",
+            "city":"Tokio",
+            "code":"HND"
+        },
+        {
+            "country":"Brazil",
+            "city":"Brasilia",
+            "code":"BSB"
+        },
+        {
+            "country":"España",
+            "city":"Madrid",
+            "code":"MAD"
+        },
+        {
+            "country":"Francia",
+            "city":"Paris",
+            "code":"CDG"
+        },
+        {
+            "country":"Italia",
+            "city":"Roma",
+            "code":"FCO"
+        },
+        {
+            "country":"Alemania",
+            "city":"Berlin",
+            "code":"BER"
+        }
+        
+    ],
+
+    "flights": [
+        {
+            "id":0,
+            "dateArrive":"",
+            "dateLeaved":"",
+            "origin":"",
+            "destiny":"",
+            "price":"",
+            "seats":"",
+            "layover":"",
+            "code":""
+        }
+    ]
+}
