@@ -22,53 +22,65 @@
         {
             "country":"Colombia",
             "city":"Medellin",
-            "code":"EOH"
+            "code":"EOH",
+            "price":"300"
         },
         {
             "country":"Estados Unidos",
             "city":"Washington D. C.",
-            "code":"DCA"
+            "code":"DCA",
+            "price":"250"
         },
         {
             "country":"Argentina",
             "city":"Buenos Aires",
-            "code":"EZE"
+            "code":"EZE",
+            "price":"135"
         },
 
         {
             "country":"China",
             "city":"Pekin",
-            "code":"PEK"
+            "code":"PEK",
+            "price":"280"
         },
         {
             "country":"Japon",
             "city":"Tokio",
-            "code":"HND"
+            "code":"HND",
+            "price":"450"
         },
         {
             "country":"Brazil",
             "city":"Brasilia",
-            "code":"BSB"
+            "code":"BSB",
+            "price":"180"
         },
         {
             "country":"España",
             "city":"Madrid",
-            "code":"MAD"
+            "code":"MAD",
+            "price":"450"
         },
         {
             "country":"Francia",
             "city":"Paris",
-            "code":"CDG"
+            "code":"CDG",
+            "price":"410"
+            
         },
         {
             "country":"Italia",
             "city":"Roma",
-            "code":"FCO"
+            "code":"FCO",
+            "price":"345"
+            
         },
         {
             "country":"Alemania",
             "city":"Berlin",
-            "code":"BER"
+            "code":"BER",
+            "price":"500"
         }
         
     ],
