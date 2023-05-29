@@ -99,19 +99,17 @@
         }
     ],
 
-    "seats":[
-        {
-            "fastExit":{
-             "columns": 3,
-             "row":5
-            }
-        },
+    "seats":{
 
-        {
-            "fastStandar":{
-             "columns": 3,
-             "row":5
-            }
+        "fastExit":{
+        "columns": 3,
+        "row":5
+        },
+        
+        "fastStandar":{
+        "columns": 3,
+        "row":5
         }
-    ]
+        
+     }
 }
