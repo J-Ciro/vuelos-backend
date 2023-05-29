@@ -97,5 +97,21 @@
             "layover":"",
             "code":""
         }
+    ],
+
+    "seats":[
+        {
+            "fastExit":{
+             "columns": 3,
+             "row":5
+            }
+        },
+
+        {
+            "fastStandar":{
+             "columns": 3,
+             "row":5
+            }
+        }
     ]
 }
