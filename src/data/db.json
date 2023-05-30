@@ -182,6 +182,55 @@
             ],
             "baggage-type":""
 
+        },
+        
+        {
+            "id":2,
+            "name":"Whitney",
+            "document":"00000222312",
+            "origin":"Madrid",
+            "destiny":"Berlin",
+            "price":"950",
+            "salidaVuelo":[
+                {
+                    "startHor":"12:53 AM",
+                    "finalHour":"11:30 PM"
+                }
+            ],
+            "vueloRegreso":[
+                {
+                    "startHor":"11:30 AM",
+                    "finalHour":"8:30 PM"
+                }
+            ],
+            
+            "seats":[
+                {
+                    "id":0,
+                    "seat":"D4",
+                    "standar":"true"
+                },
+
+                {
+                    "id":1,
+                    "seat":"E4",
+                    "standar":"true"
+                },
+                {
+                    "id":2,
+                    "seat":"F4",
+                    "standar":"false"
+                }
+            ],
+            "passengers":[
+                {
+                    "adult":"2",
+                    "child":"1",
+                    "baby":""
+                }
+            ],
+            "baggage-type":""
+
         }
     ],
 
