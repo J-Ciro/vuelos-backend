@@ -109,16 +109,19 @@
             "seats":[
                 {
                     "id":0,
-                    "seat":"A1"
+                    "seat":"A1",
+                    "standar":"true"
                 },
 
                 {
                     "id":1,
-                    "seat":"C3"
+                    "seat":"C3",
+                    "standar":"true"
                 },
                 {
                     "id":2,
-                    "seat":"E2"
+                    "seat":"E2",
+                    "standar":"false"
                 }
             ],
             "passengers":[
@@ -155,16 +158,19 @@
             "seats":[
                 {
                     "id":0,
-                    "seat":"A3"
+                    "seat":"B2",
+                    "standar":"false"
                 },
 
                 {
                     "id":1,
-                    "seat":"C1"
+                    "seat":"C1",
+                    "standar":"true"
                 },
                 {
                     "id":2,
-                    "seat":"E3"
+                    "seat":"E3",
+                    "standar":"false"
                 }
             ],
             "passengers":[
