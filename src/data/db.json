@@ -88,14 +88,48 @@
     "flights": [
         {
             "id":0,
-            "dateArrive":"",
-            "dateLeaved":"",
-            "origin":"",
-            "destiny":"",
-            "price":"",
-            "seats":"",
-            "layover":"",
-            "code":""
+            "name":"Juan Esteban Ciro",
+            "document":"1002751834",
+            "origin":"Berlin",
+            "destiny":"Madrid",
+            "price":"950",
+            "salidaVuelo":[
+                {
+                    "startHor":"09:53 AM",
+                    "finalHour":"10:30 PM"
+                }
+            ],
+            "vueloRegreso":[
+                {
+                    "startHor":"11:30 AM",
+                    "finalHour":"8:30 PM"
+                }
+            ],
+            
+            "seats":[
+                {
+                    "id":0,
+                    "seat":"A1"
+                },
+
+                {
+                    "id":1,
+                    "seat":"C3"
+                },
+                {
+                    "id":2,
+                    "seat":"E2"
+                }
+            ],
+            "passengers":[
+                {
+                    "adult":"2",
+                    "child":"1",
+                    "baby":""
+                }
+            ],
+            "baggage-type":""
+
         }
     ],
 
