@@ -182,13 +182,13 @@
     "seats":{
 
         "fastExit":{
-        "columns": 3,
-        "row":5
+        "columns": 6,
+        "row":6
         },
         
         "fastStandar":{
-        "columns": 3,
-        "row":5
+        "columns": 6,
+        "row":6
         }
         
      }
