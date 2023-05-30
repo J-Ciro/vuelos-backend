@@ -130,6 +130,52 @@
             ],
             "baggage-type":""
 
+        },
+
+        {
+            "id":0,
+            "name":"Pepito",
+            "document":"1111111111",
+            "origin":"Berlin",
+            "destiny":"Madrid",
+            "price":"950",
+            "salidaVuelo":[
+                {
+                    "startHor":"09:53 AM",
+                    "finalHour":"10:30 PM"
+                }
+            ],
+            "vueloRegreso":[
+                {
+                    "startHor":"11:30 AM",
+                    "finalHour":"8:30 PM"
+                }
+            ],
+            
+            "seats":[
+                {
+                    "id":0,
+                    "seat":"A3"
+                },
+
+                {
+                    "id":1,
+                    "seat":"C1"
+                },
+                {
+                    "id":2,
+                    "seat":"E3"
+                }
+            ],
+            "passengers":[
+                {
+                    "adult":"2",
+                    "child":"1",
+                    "baby":""
+                }
+            ],
+            "baggage-type":""
+
         }
     ],
 
