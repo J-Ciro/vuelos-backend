@@ -121,7 +121,7 @@
                 {
                     "id":2,
                     "seat":"E2",
-                    "standar":"false"
+                    "standar":"true"
                 }
             ],
             "passengers":[
@@ -159,7 +159,7 @@
                 {
                     "id":0,
                     "seat":"B2",
-                    "standar":"false"
+                    "standar":"true"
                 },
 
                 {
