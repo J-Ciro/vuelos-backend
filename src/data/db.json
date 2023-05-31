@@ -1,250 +1,284 @@
 {
-    "clients": [
+  "clients": [
+    {
+      "id": 0,
+      "name": "",
+      "document": "",
+      "flightsOrigin": "",
+      "flightsDestiny": "",
+      "passengers": [
         {
-            "id":0,
-            "name":"",
-            "document":"",
-            "flightsOrigin":"",
-            "flightsDestiny":"",
-            "passengers":[
-                {
-                    "adult":"",
-                    "child":"",
-                    "baby":""
-                }
-            ],
-            "baggage-type":""
-
+          "adult": "",
+          "child": "",
+          "baby": ""
         }
-    ],
+      ],
+      "baggage-type": ""
+    }
+  ],
+
+  "places": [
+    {
+      "country": "Colombia",
+      "city": "Medellin",
+      "code": "EOH",
+      "price": "300"
+    },
+    {
+      "country": "Estados Unidos",
+      "city": "Washington D. C.",
+      "code": "DCA",
+      "price": "250"
+    },
+    {
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "code": "EZE",
+      "price": "135"
+    },
+
+    {
+      "country": "China",
+      "city": "Pekin",
+      "code": "PEK",
+      "price": "280"
+    },
+    {
+      "country": "Japon",
+      "city": "Tokio",
+      "code": "HND",
+      "price": "450"
+    },
+    {
+      "country": "Brazil",
+      "city": "Brasilia",
+      "code": "BSB",
+      "price": "180"
+    },
+    {
+      "country": "España",
+      "city": "Madrid",
+      "code": "MAD",
+      "price": "450"
+    },
+    {
+      "country": "Francia",
+      "city": "Paris",
+      "code": "CDG",
+      "price": "410"
+    },
+    {
+      "country": "Italia",
+      "city": "Roma",
+      "code": "FCO",
+      "price": "345"
+    },
+    {
+      "country": "Alemania",
+      "city": "Berlin",
+      "code": "BER",
+      "price": "500"
+    }
+  ],
+
+  "flights": [
+    {
+      "id": 0,
+      "name": "Juan Esteban Ciro",
+      "document": "1002751834",
+      "origin": "Berlin",
+      "destiny": "Madrid",
+      "price": "950",
+      "salidaVuelo": [
+        {
+          "startHor": "09:53 AM",
+          "finalHour": "10:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "A2"
+              
+            },
     
-    "places":[
-        {
-            "country":"Colombia",
-            "city":"Medellin",
-            "code":"EOH",
-            "price":"300"
-        },
-        {
-            "country":"Estados Unidos",
-            "city":"Washington D. C.",
-            "code":"DCA",
-            "price":"250"
-        },
-        {
-            "country":"Argentina",
-            "city":"Buenos Aires",
-            "code":"EZE",
-            "price":"135"
-        },
-
-        {
-            "country":"China",
-            "city":"Pekin",
-            "code":"PEK",
-            "price":"280"
-        },
-        {
-            "country":"Japon",
-            "city":"Tokio",
-            "code":"HND",
-            "price":"450"
-        },
-        {
-            "country":"Brazil",
-            "city":"Brasilia",
-            "code":"BSB",
-            "price":"180"
-        },
-        {
-            "country":"España",
-            "city":"Madrid",
-            "code":"MAD",
-            "price":"450"
-        },
-        {
-            "country":"Francia",
-            "city":"Paris",
-            "code":"CDG",
-            "price":"410"
-            
-        },
-        {
-            "country":"Italia",
-            "city":"Roma",
-            "code":"FCO",
-            "price":"345"
-            
-        },
-        {
-            "country":"Alemania",
-            "city":"Berlin",
-            "code":"BER",
-            "price":"500"
+            {
+              "id": 1,
+              "seat": "C1"
+              
+            },
+            {
+              "id": 2,
+              "seat": "E3"
+              
+            }
+          ]
         }
-        
-    ],
-
-    "flights": [
+      ],
+      "vueloRegreso": [
         {
-            "id":0,
-            "name":"Juan Esteban Ciro",
-            "document":"1002751834",
-            "origin":"Berlin",
-            "destiny":"Madrid",
-            "price":"950",
-            "salidaVuelo":[
-                {
-                    "startHor":"09:53 AM",
-                    "finalHour":"10:30 PM"
-                }
-            ],
-            "vueloRegreso":[
-                {
-                    "startHor":"11:30 AM",
-                    "finalHour":"8:30 PM"
-                }
-            ],
-            
-            "seats":[
-                {
-                    "id":0,
-                    "seat":"A1",
-                    "standar":"true"
-                },
-
-                {
-                    "id":1,
-                    "seat":"C3",
-                    "standar":"true"
-                },
-                {
-                    "id":2,
-                    "seat":"E2",
-                    "standar":"true"
-                }
-            ],
-            "passengers":[
-                {
-                    "adult":"2",
-                    "child":"1",
-                    "baby":""
-                }
-            ],
-            "baggage-type":""
-
-        },
-
-        {
-            "id":1,
-            "name":"Pepito",
-            "document":"1111111111",
-            "origin":"Berlin",
-            "destiny":"Madrid",
-            "price":"950",
-            "salidaVuelo":[
-                {
-                    "startHor":"09:53 AM",
-                    "finalHour":"10:30 PM"
-                }
-            ],
-            "vueloRegreso":[
-                {
-                    "startHor":"11:30 AM",
-                    "finalHour":"8:30 PM"
-                }
-            ],
-            
-            "seats":[
-                {
-                    "id":0,
-                    "seat":"B2",
-                    "standar":"true"
-                },
-
-                {
-                    "id":1,
-                    "seat":"C1",
-                    "standar":"true"
-                },
-                {
-                    "id":2,
-                    "seat":"E3",
-                    "standar":"false"
-                }
-            ],
-            "passengers":[
-                {
-                    "adult":"2",
-                    "child":"1",
-                    "baby":""
-                }
-            ],
-            "baggage-type":""
-
-        },
-        
-        {
-            "id":2,
-            "name":"Whitney",
-            "document":"00000222312",
-            "origin":"Madrid",
-            "destiny":"Berlin",
-            "price":"950",
-            "salidaVuelo":[
-                {
-                    "startHor":"12:53 AM",
-                    "finalHour":"11:30 PM"
-                }
-            ],
-            "vueloRegreso":[
-                {
-                    "startHor":"11:30 AM",
-                    "finalHour":"8:30 PM"
-                }
-            ],
-            
-            "seats":[
-                {
-                    "id":0,
-                    "seat":"D4",
-                    "standar":"true"
-                },
-
-                {
-                    "id":1,
-                    "seat":"E4",
-                    "standar":"true"
-                },
-                {
-                    "id":2,
-                    "seat":"F4",
-                    "standar":"false"
-                }
-            ],
-            "passengers":[
-                {
-                    "adult":"2",
-                    "child":"1",
-                    "baby":""
-                }
-            ],
-            "baggage-type":""
-
+          "startHor": "11:30 AM",
+          "finalHour": "8:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "A1"
+            },
+    
+            {
+              "id": 1,
+              "seat": "C3"
+            },
+            {
+              "id": 2,
+              "seat": "D3"
+            }
+          ]
         }
-    ],
+      ],
 
-    "seats":{
-
-        "fastExit":{
-        "columns": 6,
-        "row":5
-        },
-        
-        "fastStandar":{
-        "columns": 6,
-        "row":5
+      
+      "passengers": [
+        {
+          "adult": "2",
+          "child": "1",
+          "baby": ""
         }
-        
-     }
+      ],
+      "baggage-type": ""
+    },
+
+    {
+      "id": 1,
+      "name": "Pepito",
+      "document": "1111111111",
+      "origin": "Berlin",
+      "destiny": "Madrid",
+      "price": "950",
+      "salidaVuelo": [
+        {
+          "startHor": "09:53 AM",
+          "finalHour": "10:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "B2"
+            },
+
+            {
+              "id": 1,
+              "seat": "C1"
+            },
+            {
+              "id": 2,
+              "seat": "E3"
+            }
+          ]
+        }
+      ],
+      "vueloRegreso": [
+        {
+          "startHor": "11:30 AM",
+          "finalHour": "8:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "B4"
+            },
+
+            {
+              "id": 1,
+              "seat": "C4"
+              
+            },
+            {
+              "id": 2,
+              "seat": "E4"
+            }
+          ]
+        }
+      ],
+
+      "passengers": [
+        {
+          "adult": "2",
+          "child": "1",
+          "baby": ""
+        }
+      ],
+      "baggage-type": ""
+    },
+
+    {
+      "id": 2,
+      "name": "Whitney",
+      "document": "00000222312",
+      "origin": "Madrid",
+      "destiny": "Berlin",
+      "price": "950",
+      "salidaVuelo": [
+        {
+          "startHor": "12:53 AM",
+          "finalHour": "11:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "D4"
+            },
+    
+            {
+              "id": 1,
+              "seat": "E4"
+            },
+            {
+              "id": 2,
+              "seat": "F4"
+            }
+          ]
+        }
+      ],
+      "vueloRegreso": [
+        {
+          "startHor": "11:30 AM",
+          "finalHour": "8:30 PM",
+          "seats": [
+            {
+              "id": 0,
+              "seat": "D1"
+              
+            },
+    
+            {
+              "id": 1,
+              "seat": "E2"
+            },
+            {
+              "id": 2,
+              "seat": "F4"
+            }
+          ]
+        }
+      ],
+
+      
+      "passengers": [
+        {
+          "adult": "2",
+          "child": "1",
+          "baby": ""
+        }
+      ],
+      "baggage-type": ""
+    }
+  ],
+
+  "seats": {
+    "fastExit": {
+      "columns": 6,
+      "row": 5
+    },
+
+    "fastStandar": {
+      "columns": 6,
+      "row": 5
+    }
+  }
 }
