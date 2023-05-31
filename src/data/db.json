@@ -272,8 +272,8 @@
 
   "seats": {
     "fastExit": {
-      "columns": 6,
-      "row": 10
+      "columns": 3,
+      "row": 5
     }
   }
 }
